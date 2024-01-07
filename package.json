@@ -5,6 +5,7 @@
   "main": "mongo.js",
   "type": "module",
   "scripts": {
+    "init-db": "node mongo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

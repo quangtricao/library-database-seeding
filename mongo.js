@@ -20,15 +20,15 @@ await BookGenreModel.deleteMany({});
 await GenreModel.deleteMany({});
 // await UserModel.deleteMany({});
 
-let books = await fs.readFile('./library-data/books.json', 'utf-8');
+let books = await fs.readFile('./data/books.json', 'utf-8');
 books = JSON.parse(books);
 await BookModel.insertMany(books);
 
-let authors = await fs.readFile('./library-data/authors.json', 'utf-8');
+let authors = await fs.readFile('./data/authors.json', 'utf-8');
 authors = JSON.parse(authors);
 await AuthorModel.insertMany(authors);
 
-let genres = await fs.readFile('./library-data/genres.json', 'utf-8');
+let genres = await fs.readFile('./data/genres.json', 'utf-8');
 genres = JSON.parse(genres);
 await GenreModel.insertMany(genres);
 
