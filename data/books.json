@@ -1,0 +1,210 @@
+[
+  {
+    "isbn": "0747532699",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "publisher": "Bloomsbury",
+    "image": "https://media.harrypotterfanzone.com/philosophers-stone-adult-edition.jpg",
+    "publishedYear": 1997,
+    "status": "available"
+  },
+  {
+    "isbn": "0747538492",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "publisher": "Bloomsbury",
+    "image": "https://media.harrypotterfanzone.com/chamber-of-secrets-adult-edition.jpg",
+    "publishedYear": 1998,
+    "status": "available"
+  },
+  {
+    "isbn": "0747542155",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "publisher": "Bloomsbury",
+    "image": "https://media.harrypotterfanzone.com/prisoner-of-azkaban-us-20th-anniversary-edition-1050x0-c-default.jpg",
+    "publishedYear": 1999,
+    "status": "available"
+  },
+  {
+    "isbn": "074754624X",
+    "title": "Harry Potter and the Goblet of Fire",
+    "publisher": "Bloomsbury",
+    "image": "https://media.harrypotterfanzone.com/goblet-of-fire-adult-edition.jpg",
+    "publishedYear": 2000,
+    "status": "available"
+  },
+  {
+    "isbn": "0747551006",
+    "title": "Harry Potter and the Order of the Phoenix",
+    "publisher": "Bloomsbury",
+    "image": "https://media.harrypotterfanzone.com/order-of-the-phoenix-uk-childrens-edition-1050x0-c-default.jpg",
+    "publishedYear": 2003,
+    "status": "available"
+  },
+  {
+    "isbn": "0747581088",
+    "title": "Harry Potter and the Half-Blood Prince",
+    "publisher": "Bloomsbury",
+    "image": "https://media.harrypotterfanzone.com/half-blood-prince-adult-edition.jpg",
+    "publishedYear": 2005,
+    "status": "available"
+  },
+  {
+    "isbn": "0545010225",
+    "title": "Harry Potter and the Deathly Hallows",
+    "publisher": "Bloomsbury",
+    "image": "https://media.harrypotterfanzone.com/deathly-hallows-ebook-cover-1050x0-c-default.jpg",
+    "publishedYear": 2007,
+    "status": "available"
+  },
+  {
+    "isbn": "978-1-4197-4185-2",
+    "title": "Diary of a Wimpy Kid",
+    "publisher": "Amulet Books",
+    "image": "https://cdn.kobo.com/book-images/69327895-ab7d-45e0-a8a2-7956cf72091a/1200/1200/False/diary-of-a-wimpy-kid-diary-of-a-wimpy-kid-1.jpg",
+    "publishedYear": 2007,
+    "status": "available"
+  },
+  {
+    "isbn": "978-1-4197-4186-9",
+    "title": "Diary of a Wimpy Kid: Rodrick Rules",
+    "publisher": "Amulet Books",
+    "image": "https://media.harrypotterfanzone.com/deathly-hallows-ebook-cover-1050x0-c-default.jpg",
+    "publishedYear": 2008,
+    "status": "available"
+  },
+  {
+    "isbn": "9788412664812",
+    "title": "War and Peace",
+    "publisher": "Italian Lux Vide",
+    "image": "https://images4.penguinrandomhouse.com/cover/9781400079988",
+    "publishedYear": 1867,
+    "status": "available"
+  },
+  {
+    "isbn": "9780060958978",
+    "title": "Family Happiness",
+    "publisher": "Harper Perennial",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388207807i/264380.jpg",
+    "publishedYear": 1859,
+    "status": "available"
+  },
+  {
+    "isbn": "9788416440146",
+    "title": "How Much Land Does a Man Need?",
+    "publisher": "Penguin Classics",
+    "image": "https://m.media-amazon.com/images/I/51Ivd9AmM4L.jpg",
+    "publishedYear": 1994,
+    "status": "available"
+  },
+  {
+    "isbn": "9783458340270",
+    "title": "Childhood",
+    "publisher": "The Contemporary",
+    "image": "https://m.media-amazon.com/images/I/51G-bsCmZgL.jpg",
+    "publishedYear": 1852,
+    "status": "available"
+  },
+  {
+    "isbn": "9780140707342",
+    "title": "Hamlet",
+    "publisher": "Simon & Schuster",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781451669411/hamlet-9781451669411_hr.jpg",
+    "publishedYear": 1992,
+    "status": "available"
+  },
+  {
+    "isbn": "9780133556292",
+    "title": "Romeo and Juliet",
+    "publisher": "Simon & Schuster",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/cvr9781451621709_9781451621709_lg.jpg",
+    "publishedYear": 2011,
+    "status": "available"
+  },
+  {
+    "isbn": "9780003252514",
+    "title": "The Merchant of Venice",
+    "publisher": "Simon & Schuster",
+    "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781625589507/the-merchant-of-venice-9781625589507_hr.jpg",
+    "publishedYear": 2009,
+    "status": "available"
+  },
+  {
+    "isbn": "9780582434479",
+    "title": "Animal Farm",
+    "publisher": "Secker and Warburg",
+    "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/91LUbAcpACL._AC_UF1000,1000_QL80_.jpg",
+    "publishedYear": 1945,
+    "status": "available"
+  },
+  {
+    "isbn": "9788804325963",
+    "title": "The Old Man and the Sea",
+    "publisher": "Charles Scribner's Sons",
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*qBhLNuSbkPRhPqYkssMp0g.jpeg",
+    "publishedYear": 1952,
+    "status": "available"
+  },
+  {
+    "isbn": "9780385121675",
+    "title": "The Shining",
+    "publisher": "Doubleday",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353277730i/11588.jpg",
+    "publishedYear": 1977,
+    "status": "available"
+  },
+  {
+    "isbn": "9788475251110",
+    "title": "The Mysterious Stranger",
+    "publisher": "University of California Press",
+    "image": "https://cdn.kobo.com/book-images/9a1803c7-3303-4a61-a9e9-f3da1066aad4/353/569/90/False/the-mysterious-stranger-13.jpg",
+    "publishedYear": 1916,
+    "status": "available"
+  },
+  {
+    "isbn": "9780192818485",
+    "title": "Life on the Mississippi",
+    "publisher": "Chatto & Windus",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309286211i/99152.jpg",
+    "publishedYear": 1883,
+    "status": "available"
+  },
+  {
+    "isbn": "0446547638",
+    "title": "The Best of Me",
+    "publisher": "Grand Central Publishing",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/71/The_Best_of_Me_%28novel%29.jpg",
+    "publishedYear": 2013,
+    "status": "available"
+  },
+  {
+    "isbn": "9780446400848",
+    "title": "Dear John",
+    "publisher": "Warner Books",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Dear_john_novel_by_nicholas_sparks.jpg/220px-Dear_john_novel_by_nicholas_sparks.jpg",
+    "publishedYear": 2007,
+    "status": "available"
+  },
+  {
+    "isbn": "9783453408715",
+    "title": "A Walk to Remember",
+    "publisher": "Warner Books",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a8/A_Walk_to_Remember_%28Hardcover%29.jpg",
+    "publishedYear": 1999,
+    "status": "available"
+  },
+  {
+    "isbn": "9783754939536",
+    "title": "How the Steel Was Tempered",
+    "publisher": "Young Guard",
+    "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61kq0cID5FL._AC_UF1000,1000_QL80_.jpg",
+    "publishedYear": 1932,
+    "status": "available"
+  },
+  {
+    "isbn": "9780883551752",
+    "title": "Born of the Storm",
+    "publisher": "Critics Group Press",
+    "image": "https://img.thriftbooks.com/api/images/m/9194e1b2703b946fe838e043ba734d16d1815ae2.jpg",
+    "publishedYear": 1939,
+    "status": "available"
+  }
+]
