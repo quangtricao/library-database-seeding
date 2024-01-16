@@ -1,8 +1,6 @@
 import mongoose from 'mongoose';
 
-const Schema = mongoose.Schema;
-
-const BookSchema = new Schema({
+export const BookSchema = new mongoose.Schema({
   isbn: {
     type: String,
     required: true,
@@ -26,6 +24,7 @@ const BookSchema = new Schema({
     type: String,
     enum: ['available', 'borrowed'],
     default: 'available',
+    required: false,
   },
 });
 

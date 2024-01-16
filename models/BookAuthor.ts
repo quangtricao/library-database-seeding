@@ -1,6 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
 
-const bookAuthorSchema = new Schema({
+export const BookAuthorSchema = new Schema({
   bookId: {
     type: Schema.ObjectId,
     ref: 'Book',
@@ -14,8 +14,7 @@ const bookAuthorSchema = new Schema({
 });
 
 // Compound index to ensure that author-book pairs are unique.
-bookAuthorSchema.index({ bookId: 1, authorId: 1 }, { unique: true });
+BookAuthorSchema.index({ bookId: 1, authorId: 1 }, { unique: true });
 
-const BookAuthorModel = mongoose.model('BookAuthor', bookAuthorSchema);
-
+const BookAuthorModel = mongoose.model('BookAuthor', BookAuthorSchema);
 export default BookAuthorModel;
