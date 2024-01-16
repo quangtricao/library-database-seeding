@@ -2,7 +2,7 @@
 
 Database seeding script for the following library [platform](https://cqtri-fsproject.netlify.app/).
 
-The script create collections: authors, books, and genres. It also create two bridge table collections that feature many-to-many relationship: bookauthors and bookgenres.
+The script create collections: authors, books, genres, users, bookauthors, and bookgenres. It also updates one account's role to be ADMIN.
 
 ## Getting started
 

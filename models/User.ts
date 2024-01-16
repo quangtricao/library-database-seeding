@@ -4,6 +4,7 @@ export const UserSchema = new mongoose.Schema({
   role: {
     type: String,
     default: 'USER',
+    required: false,
   },
   password: {
     type: String,

@@ -1,19 +1,22 @@
 import 'dotenv/config';
 import mongoose from 'mongoose';
+import bcrypt from 'bcrypt';
 
 import AuthorModel from './models/Author.ts';
 import BookModel from './models/Book.ts';
 import BookAuthorModel from './models/BookAuthor.ts';
 import BookGenreModel from './models/BookGenre.ts';
 import GenreModel from './models/Genre.ts';
-// import UserModel from './models/user.ts';
+import UserModel from './models/User.ts';
 
 import { authors } from './data/authors.ts';
 import { books } from './data/books.ts';
 import { genres } from './data/genres.ts';
+import { users } from './data/users.ts';
 
 import { BookAuthorSchemaType } from './type/bookAuthor.ts';
 import { BookGenreSchemaType } from './type/bookGenre.ts';
+import { UserSchemaType } from './type/user.ts';
 
 const { DB_URL } = process.env;
 mongoose.connect(DB_URL as string).then(() => console.log('Database connected'));
@@ -23,7 +26,7 @@ await BookModel.deleteMany({});
 await BookAuthorModel.deleteMany({});
 await BookGenreModel.deleteMany({});
 await GenreModel.deleteMany({});
-// await UserModel.deleteMany({});
+await UserModel.deleteMany({});
 
 await AuthorModel.insertMany(authors);
 await BookModel.insertMany(books);
@@ -59,8 +62,32 @@ BookGenreLoop: for (const genre of genres) {
   }
 }
 
+const usersHashedPassword: UserSchemaType[] = [];
+UserLoop: for (const user of users) {
+  const SALT_ROUNDS = 12;
+  const hashedPassword = await bcrypt.hash(user.password, SALT_ROUNDS);
+  usersHashedPassword.push({ ...user, password: hashedPassword });
+}
+
 await BookAuthorModel.insertMany(bookAuthorIds);
 await BookGenreModel.insertMany(bookGenreIds);
+await UserModel.insertMany(usersHashedPassword);
+
+const adminAccount = await UserModel.findOne({ email: { $regex: 'admin', $options: 'i' } });
+if (adminAccount) {
+  const id = adminAccount.id;
+  const userToBeUpdate: UserSchemaType = {
+    image: adminAccount.image,
+    password: adminAccount.password,
+    firstName: adminAccount.firstName,
+    lastName: adminAccount.lastName,
+    email: adminAccount.email,
+    role: 'ADMIN',
+  };
+  await UserModel.findByIdAndUpdate(id, userToBeUpdate);
+} else {
+  console.log('No ADMIN account found');
+}
 
 const seedDB = async () => {};
 seedDB().then(() => mongoose.connection.close());
